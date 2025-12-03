@@ -1,5 +1,5 @@
 {
-  "name": "digital-garden",
+  "name": "nextjs-starter-kit",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "destyle.css": "^4.0.1",
     "next": "16.0.6",
     "react": "19.2.0",
     "react-dom": "19.2.0"
@@ -19,6 +20,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
+    "prettier": "^3.7.3",
+    "sass": "^1.94.2",
     "typescript": "^5"
   }
 }

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* ----------
+    定数
+----------- */
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-bg-ground: #c02d2d;
+  --color-text-main: var(--color-black);
+}
+
+/* ----------
+    関数
+----------- */
+/* スマホ用メディアクエリ */
+/* Flexbox中央寄せセット */
+/* ----------
+    基本
+----------- */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  font-style: italic;
+}
+
+body {
+  background-color: var(--color-bg-ground);
+  color: var(--color-text-main);
+  font-family: sans-serif;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- 
+    配置
+----------- */
+/* ----------
+    道具
+----------- */
+/* 順番大事 */
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,13 @@
+/* ----------
+    定数
+----------- */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-bg-ground: #00ddff;
+  --color-text-main: var(--color-black);
+}
+
+$width-container: 1000px;
+$break-point-sp: 768px;

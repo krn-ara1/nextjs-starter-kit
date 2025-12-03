@@ -1,0 +1,22 @@
+@use './variables'as *;
+@use './mixins'as *;
+
+/* ----------
+    基本
+----------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  image-rendering: pixelated;
+  font-style: italic;
+}
+
+body {
+  background-color: var(--color-bg-ground);
+  color: var(--color-text-main);
+  font-family: sans-serif;
+  font-feature-settings: "palt";
+  -webkit-font-smoothing: antialiased;
+}
